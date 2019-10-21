@@ -60,10 +60,10 @@ header {
 header video {
   position: absolute;
   top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
+  left: 75%;
+  min-width: 50%;
+  min-height: 50%;
+  width: 50%;
   height: auto;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
@@ -75,26 +75,6 @@ header video {
 header .container {
   position: relative;
   z-index: 2;
-}
-
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
 }
 
 article, aside, figcaption, figure, footer, hgroup, main, nav, section {
