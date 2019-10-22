@@ -51,14 +51,28 @@ html {
 header {
   position: relative;
   background-color: black;
-  height: 65vh;
+  height: 70vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
 }
 
-header p {
+.headline1 {
   color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif !important;
+}
+
+.headline2 {
+  color: rgb(208, 227, 239);
+  text-align: center;
+  font-family: 'Caveat', Helvetica, sans-serif !important;
+}
+
+.headline3 {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 header video {
