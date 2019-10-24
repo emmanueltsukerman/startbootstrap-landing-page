@@ -200,6 +200,35 @@ header .container {
   font-size:28px !important
  }
 
+ .neck {
+  position: relative;
+  background-color: black;
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.neck video {
+  width: inherit;
+}
+
+.neck .container {
+  position: relative;
+  z-index: 2;
+}
+
+.neckline1 {
+  color: rgb(52, 80, 110);
+  text-align: center;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif !important;
+}
+
+.neckline2 {
+  color: rgb(32, 55, 80);
+  text-align: center;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif !important;
+}
+
 article, aside, figcaption, figure, footer, hgroup, main, nav, section {
   display: block;
 }
