@@ -229,6 +229,35 @@ header .container {
   font-family: 'Source Sans Pro', Helvetica, sans-serif !important;
 }
 
+.elHeadline {
+  position:relative
+ }
+ .elHeadline {
+  margin-bottom:0px;
+  padding:0px
+ }
+ .elHeadline span {
+  padding:5px 10px
+ }
+ .elHeadlineWrapper .elHeadline span {
+  padding:0px
+ }
+ .elHeadline u {
+  border-bottom:2px solid inherit
+ }
+
+ .hsSize3 {
+  font-size:32px
+ }
+
+ .elMargin0 {
+  margin-top:0px
+ }
+
+ .lh1 {
+  line-height:1em
+ }
+
 article, aside, figcaption, figure, footer, hgroup, main, nav, section {
   display: block;
 }
