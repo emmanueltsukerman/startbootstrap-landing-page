@@ -259,7 +259,7 @@ header .container {
 .chest {
   position: relative;
   background-color: black;
-  height: 120vh;
+  height: 140vh;
   width: 100%;
   overflow: hidden;
 }
