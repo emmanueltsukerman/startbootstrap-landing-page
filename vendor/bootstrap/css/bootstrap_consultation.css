@@ -51,7 +51,7 @@ html {
 header {
   position: relative;
   background-color: black;
-  height: 100vh;
+  height: 120vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
